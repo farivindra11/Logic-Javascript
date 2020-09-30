@@ -1,19 +1,3 @@
-/*
-pertama looping sesuai param
-buat ketentuan
-console index data
- */
-// function indexPrime(pram1){
-// let hasil = []
-// let tes = true;
-// let total = ''
-// for(let i = 2; i < 10; i++) {
-    
-// }
-
-// // }
-
-
 function indexPrime(prims1) {
    let hasil = [];
    let jumlah = 1000000;
@@ -41,3 +25,18 @@ console.log(indexPrime(500))
 console.log(indexPrime(37786))
 
 // ini hard code
+
+/*
+pertama looping sesuai param
+buat ketentuan
+console index data
+ */
+// function indexPrime(pram1){
+// let hasil = []
+// let tes = true;
+// let total = ''
+// for(let i = 2; i < 10; i++) {
+    
+// }
+
+// // }
