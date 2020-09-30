@@ -31,19 +31,6 @@ stringManipulation("bebek mandi");
 // apabila diawali huruf vokal fungsi langsung mengembalikan kata tersebut
 //if not huruf tersebut pindah di akhir kata dan tambah nyo
 // pakai concat
-/*
-function manipulasi(word){
-
-let vokal = ["a", "i", "u", "e", "o"];
-for(){
-
-}
-if( = vokal ){
- return true
-}
-}
-*/
-
 
 // let a = "hello world"
 // let b = "woy"
