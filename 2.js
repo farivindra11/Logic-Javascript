@@ -1,3 +1,26 @@
+
+
+function deretKaskus(n) {
+    let tes = [];
+
+    for (let i = 3; i <= 3 *n; i +=3){
+        if (i % 5 == 0 && i % 6 == 0){
+          tes.push("KASKUS");
+          }else if (i % 5 == 0){
+          tes.push("KAS");
+            }else if (i % 6 == 0){
+          tes.push("KUS")
+            }else {
+          tes.push(i)
+    }  
+  }
+   return tes
+}
+  
+console.log(deretKaskus(10));
+
+// di proses dari atas
+
 // prototipe custom string
 // String.prototype.mengulang = function (n){ 
     // nilai masuk
@@ -49,25 +72,3 @@ output berupa array
         
 //     }
 // }
-
-function deretKaskus(n) {
-    let tes = [];
-
-    for (let i = 3; i <= 3 *n; i +=3){
-        if (i % 5 == 0 && i % 6 == 0){
-          tes.push("KASKUS");
-          }else if (i % 5 == 0){
-          tes.push("KAS");
-            }else if (i % 6 == 0){
-          tes.push("KUS")
-            }else {
-          tes.push(i)
-    }  
-  }
-   return tes
-}
-  
-console.log(deretKaskus(10));
-
-// di proses dari atas
-
